@@ -1,0 +1,186 @@
+/*-----Main content Style-----*/
+.wrapper {
+  background-color: #f2f2f2;
+  width: 1150px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  box-shadow: 0px 10px 10px black;
+}
+
+#main-content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*-----Homepage Style-----*/
+
+.first-content-hp {
+  margin-top: 30px;
+  background-color: rgb(136, 207, 238);
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 66px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.second-content-hp {
+  margin-top: 30px;
+  background-color: rgb(136, 207, 238);
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 66px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.third-content-hp {
+  margin-top: 30px;
+  background-color: rgb(136, 207, 238);
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 66px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.fourth-content-hp {
+  margin-top: 30px;
+  background-color: rgb(136, 207, 238);
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 66px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+/*-----Document Style-----*/
+
+.first-content-doc {
+  margin-top: 100px;
+  background-color: rgb(136, 207, 238);
+  height: 800px;
+  width: 400px;
+  border: 2px solid black;
+  float: left;
+  margin: 30px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.second-content-doc {
+  margin-top: 100px;
+  background-color: rgb(136, 207, 238);
+  height: 800px;
+  width: 400px;
+  border: 2px solid black;
+  float: left;
+  margin: 30px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+  margin-left: 52px;
+}
+
+/*-----Tutorial Style-----*/
+
+.first-content-tut {
+  height: 250px;
+  width: 400px;
+  border: 2px solid black;
+  float: left;
+  cursor: pointer;
+  background-color: rgb(136, 207, 238);
+  margin: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.second-content-tut {
+  height: 250px;
+  width: 400px;
+  border: 2px solid black;
+  float: right;
+  cursor: pointer;
+  background-color: rgb(136, 207, 238);
+  margin: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.third-content-tut {
+  height: 250px;
+  width: 400px;
+  border: 2px solid black;
+  float: left;
+  cursor: pointer;
+  background-color: rgb(136, 207, 238);
+  margin: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.fourth-content-tut {
+  height: 250px;
+  width: 400px;
+  border: 2px solid black;
+  float: right;
+  cursor: pointer;
+  background-color: rgb(136, 207, 238);
+  margin: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.fifth-content-tut {
+  height: 250px;
+  width: 400px;
+  border: 2px solid black;
+  float: left;
+  cursor: pointer;
+  background-color: rgb(136, 207, 238);
+  margin: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.sixth-content-tut {
+  height: 250px;
+  width: 400px;
+  border: 2px solid black;
+  float: right;
+  cursor: pointer;
+  background-color: rgb(136, 207, 238);
+  margin: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}

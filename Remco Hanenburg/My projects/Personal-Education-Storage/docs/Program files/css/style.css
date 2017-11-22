@@ -1,0 +1,461 @@
+/*-----Main CSS Style-----*/
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(232, 232, 232);
+}
+
+/*-----Title Style-----*/
+  .h1-main {
+    color: rgb(136, 207, 238);
+    font-size: 3vh;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 20px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-left: 43.5%;
+  }
+
+  .h1-signup {
+    color: rgb(136, 207, 238);
+    font-size: 40px;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 25px;
+    margin-left: 2%;
+    width: 1000px;
+  }
+
+/*-----Text Style-----*/
+h2 {
+  text-align: center;
+  color: rgb(136, 207, 238);
+  font-size: 2.5vh;
+  font-family: Arial;
+  margin-bottom: 45px;
+}
+
+.h2-signup {
+  margin-top: -10px;
+  font-size: 2.8vh;
+}
+
+.h2-signup-footer {
+  margin-top: 2.5%;
+  font-size: 2.5vh;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: sticky;
+}
+h4 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: Arial;
+}
+
+p {
+  font-weight: 400;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+  line-height: 24px;
+  margin: ;
+  padding: ;
+}
+
+/*-----Navbar Style-----*/
+header nav {
+  width: 100%;
+  height: 80px;
+  background-color: #3f3f3f;
+  box-shadow: 0px 3px 5px black;
+}
+
+header nav ul {
+  width: 100px;
+  height: 80px;
+}
+
+header nav ul li {
+  width: 165px;
+  float: left;
+  list-style: none;
+  display: inline-block;
+  margin-right: 0px;
+  padding-top: 0.0%;
+}
+
+header nav ul li a {
+  display: block;
+  font-family: Arial;
+  font-size: 25px;
+  color: white;
+  line-height: 80px;
+  text-align: center;
+  font-weight: bold 20px;
+}
+
+header nav ul li a:hover{
+  background-color: #ccc;
+  color: black;
+}
+
+.main-navbar {
+  width: 800px;
+  height: 79px;
+  border-style: solid;
+  border-width: 0px;
+  float: left;
+  font-size: 20px;
+}
+
+header .navbar-login {
+  float: right;
+}
+
+header .navbar-login form {
+  float: left;
+  padding-top: 22px;
+  margin-right: 21px;
+}
+
+header .navbar-login form input {
+  width: 150px;
+  height: 35px;
+  padding: 0px 12px;
+  margin-right: 15px;
+  border: none;
+  background-color: #f2f2f2;
+  font-family: Arial;
+  font-size: 16.5px;
+  color: black;
+  line-height: 30px;
+}
+
+header .navbar-login form button {
+  width: 85px;
+  height: 40px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  font-family: Arial;
+  font-size: 18.5px;
+  color: black;
+  cursor: pointer;
+}
+
+header .navbar-login form button:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+header .navbar-login form a {
+  width: 85px;
+  height: 40px;
+  padding: 6px 8px;
+  margin-right: 10px;
+  background-color: #3f3f3f;
+  border: none;
+  font-family: Arial;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+/*-----ToggleMenu-----*/
+aside {
+  background-color: #3f3f3f;
+  width: 280px;
+  height: 104.8%;
+  margin-top: 82px;
+  display: block;
+  position: absolute;
+  box-shadow: 0px 5px 10px black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  z-index: 1000;
+  transition: all ease-in-out 225ms;
+  -webkit-transition: all ease-in-out 225ms;
+  -o-transition: all ease-in-out 225ms;
+  -moz-transition: all ease-in-out 225ms;
+}
+
+aside ul {
+  margin-top: 0px;
+  box-shadow: 0px 3px 10px black;
+
+}
+
+aside ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+
+aside ul li a {
+  background-color: #f2f2f2;
+  color: black;
+  border-bottom: 1px solid black;
+  display: block;
+  width: 260px;
+  padding: 10px;
+}
+
+aside ul li a:hover {
+  background-color: rgb(136, 207, 238);
+}
+
+.main-ul ul {
+  display: none;
+}
+
+.main-ul li:hover ul {
+  display: block;
+  background-color: rgb(136, 207, 238);
+}
+
+.second-ul {
+  margin-right: -280px;
+  float: right;
+  margin-top: -41px;
+}
+
+.arrow-side {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  float: right;
+  margin-top: 4px;
+}
+
+.aside-hr {
+  margin-top: 150px;
+  margin-bottom: 130px;
+  border: none;
+  height: 1px;
+  background: black;
+}
+
+/*-----Upload-Delete Menu Style-----*/
+.upload-delete-menu {
+  margin-top: 25px;
+  position: absolute;
+  width: 280px;
+  height: 205px;
+  box-shadow: 0px 3px 10px black;
+  float: left;
+}
+
+/*Upload menu Style*/
+.upload-menu input {
+  background-color: #f2f2f2;
+  float: left 20px;
+  margin-top: 10px;
+  margin-left: 12.5px;
+  font-size: 13.5px;
+}
+
+.upload-menu input:hover {
+  cursor: pointer;
+}
+
+.upload-menu button {
+  background-color: #f2f2f2;
+  width: 75px;
+  height: 45px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-family: Arial;
+  box-shadow: 0px 2px 4px black;
+  margin-top: 10px;
+  margin-left: 105px;
+}
+
+.upload-menu button:hover {
+  color: black;
+  background-color: #ccff99;
+  border: 1px solid black;
+  cursor: pointer;
+}
+/*Delete menu Style*/
+.delete-menu input {
+  background-color: #f2f2f2;
+  height: 25px;
+  width: 250px;
+  float: left 20px;
+  margin-top: 25px;
+  margin-left: 12.5px;
+  font-size: 15px;
+}
+
+.delete-menu button {
+  background-color: #f2f2f2;
+  width: 75px;
+  height: 45px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-family: Arial;
+  box-shadow: 0px 2px 4px black;
+  margin-top: 10px;
+  margin-left: 105px;
+}
+
+.delete-menu button:hover {
+  color: black;
+  background-color: #ffb3b3;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/*-----Sidebar button Style-----*/
+#sidebar-btn {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  background-image: url(left-right.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1050;
+  margin-left: 310px;
+  margin-top: 25%;
+  cursor: pointer;
+  border: 10px solid #fff;
+  border-radius: 2px;
+  transition: all ease-in-out 225ms;
+  -webkit-transition: all ease-in-out 225ms;
+  -o-transition: all ease-in-out 225ms;
+  -moz-transition: all ease-in-out 225ms;
+}
+
+#sidebar-btn:hover {
+  opacity: 0.6;
+}
+
+/*-----Content Style-----*/
+
+/*-----Footer Style-----*/
+
+.main-footer {
+  position: absolute;
+  background-color: #3f3f3f;
+  height: 145px;
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.main-footer ul {
+  width: 700px;
+  height: 80px;
+  background-color: #3f3f3f;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-footer ul li {
+  width: 165px;
+  height: 100px;
+  background-color: #3f3f3f;
+  list-style: none;
+  display: inline-block;
+
+}
+
+.main-footer ul li a {
+  display: block;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.main-footer ul li a:hover {
+  color: black;
+}
+
+/*-----Signup Style-----*/
+
+.signup-menu {
+  width: 22.5%;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 0px;
+  background-color: rgb(70, 70, 70);
+  padding: 70px 30px;
+  border-radius: 4px;
+}
+
+.signup-menu input {
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 4px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: rgb(232, 232, 232);
+  font-size: 20px;
+  font-family: Arial;
+  color: black;
+  line-height: 40px;
+}
+
+.signup-menu button {
+  width: 30%;
+  height: 50px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f2f2f;
+  font-size: 25px;
+  font-family: Arial;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.signup-menu button:hover {
+  background-color: rgb(18, 18, 18);
+}
+
+.forgot-password {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #f2f2f2;
+  margin-left: 128px;
+}
+
+.forgot-password:hover {
+  color: rgb(226, 226, 226);
+}

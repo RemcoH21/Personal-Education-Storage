@@ -1,0 +1,17 @@
+ID;Question;ID_no;ID_yes;ID_dunno
+1;Do you like sport?;2;4;5
+2;Do you sport a lot?;3;4;9
+3;Are you planning to be professional athlete?;7;6;11
+4;Is there a good reason for this?;12;8;9
+5;Do you want to change this but is there a reason why you can't change it?;12;8;9
+6;You are doing good, keep on going like this!;13;13;13
+7;Sounds good! You are doing great if we talk about sports! Keep going like this and goodluck with your professional career!;13;13;13
+8;Hmm... You sound a bit lazy.. Try to sport at least 2 hours a week, because this is much more healthy for you!;13;13;13
+9;Well, It sounds like you don't really know what sports is. Maybe search it on google to get some tips and cool sports!;13;13;13
+10;Would you like to change this?12;8;9
+11;Good job! Sports are good for you!;13;13;13
+12;That doesn't sound well, try to search a solution for this, because sports are very good for you!;13;13;13
+13;Congratulations! You've completed the quiz!
+
+//String always put in "" because of the spacebar.
+//Every ; stand for a space inbetween the array like: [0] [1] [2]

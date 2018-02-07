@@ -1,0 +1,36 @@
+.border-about-me {
+  position: absolute;
+  margin-top: 60px;
+  width: 900px;
+  background-color: rgb(200, 198, 198);
+  padding: 50px;
+  border-radius: 4px;
+}
+
+.box-about-me {
+  padding-bottom: 30px;
+  width: 100%;
+}
+#main-content form {
+  padding-top: 20px;
+}
+
+#main-content input  {
+  padding: 0px 15px;
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  float: right;
+}
+
+#main-content button {
+  width: 100px;
+  height: 39.5px;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+h4 {
+  color: black;
+}
